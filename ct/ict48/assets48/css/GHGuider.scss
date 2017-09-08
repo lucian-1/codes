@@ -1,0 +1,21 @@
+.GH-guider {
+  //background-color: #fff;
+  color: #555;
+  font-size: .8rem;
+
+  .description {
+    text-align: center;
+    line-height: 1.4;
+  }
+  img {
+    display: block;
+    width: 7rem;
+    height: 7rem;
+    margin: 1rem auto;
+  }
+
+  .blank {
+    height: 6px;
+    background-color: #fff;
+  }
+}

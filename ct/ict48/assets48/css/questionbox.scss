@@ -1,0 +1,55 @@
+.radio {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2% 5%;
+  background-color: #FFFFFF;
+  font-size: .69rem;
+  display: flex;
+
+  .circle, .text {
+    display: block;
+  }
+  .circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    position: relative;
+    text-align: center;
+  }
+  .text {
+    width: 95%;
+    margin-left: .5rem;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(0,205,0,.6);
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%,-50%,0);
+  }
+
+}
+
+
+.choice{
+
+
+}
+.choice:before {
+  position: absolute;
+  content: ' ';
+  top: .9rem;
+  left: -.6rem;
+  width: 0;
+  height: 0;
+  border-width:6px;
+  border-style: solid ;
+  border-color: transparent #fff transparent transparent;
+}

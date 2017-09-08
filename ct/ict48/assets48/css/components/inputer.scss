@@ -1,0 +1,79 @@
+.input-container {
+  position: fixed;
+  bottom: 0;
+  height: 9%;
+  width: 100%;
+  background: #fff;
+  padding: 5px 0 0 0;
+  border-top: 1px #eee solid;
+}
+
+  .textar{
+    padding-left: .4rem;
+    width: 76%;
+    height: px2rem(80);
+    line-height: px2rem(80);
+    font-size: px2rem(32);
+    border-radius: px2rem(12);
+    margin: 0 px2rem(20) 0 px2rem(20);
+    border: 1px #ccc solid;
+    overflow: hidden;
+    font-family: 'Microsoft yahei';
+  }
+
+  .send-button {
+    position: fixed;
+    right:0;
+    //bottom: 7px;
+    display: inline-block;
+    //float:right;
+    padding: 0 !important;
+    font-size: px2rem(28);
+    margin-right:px2rem(20);
+    width: px2rem(120);
+    height:px2rem(80);
+    line-height: px2rem(80);
+    border-radius: px2rem(10);
+    color:#ffffff;
+    background-color: #FF712A;
+    text-align: center;
+  }
+
+  .edited_panel{
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color:#fff;
+
+  }
+
+  .cancel_btn{
+    font-size:.8rem;
+    display:inline-block;
+    font-weight:bold;
+    color:#bcbcbc;
+    padding: 2rem 0 0 1rem;
+
+  }
+  .save_btn{
+    //font-size:.8rem;
+    position:relative;
+    display:inline-block;
+    float:right;
+    font-weight:bold;
+    padding: .7rem 1rem 0 0;
+    margin-bottom:125%;
+  }
+  .text_border{
+  //border:1px solid #f6f4f4;;
+  //border-radius:7px;
+  margin:  2% 5% 5%;
+  }
+  .text_area{
+    padding: 5% ;
+    width: 100%;
+    font-size: .8rem;
+    border:1px solid #E6E6E6;
+    border-radius:7px;
+    font-family: 'Microsoft yahei';
+  }

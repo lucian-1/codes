@@ -1,0 +1,23 @@
+.GH-guider{
+  .description{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  .last{
+    font-size: 0.8rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: px2rem(20);
+  }
+
+
+  .qrcode{
+    display: -webkit-box;
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+  }
+}

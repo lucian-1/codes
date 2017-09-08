@@ -1,0 +1,11 @@
+.outer-progress{
+  display: inline-block;
+  border-radius: 4px;
+
+  .inner-progress{
+    display: inline-block;
+    height: 6px;
+    text-align: left;
+    border-radius: 4px;
+  }
+}

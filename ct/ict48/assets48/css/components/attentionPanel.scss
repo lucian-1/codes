@@ -1,0 +1,39 @@
+.attention-panel{
+
+  .User-img{
+    width: 6rem;
+    height: 6rem;
+    display: block;
+    border-radius: 50%;
+    margin: 1rem auto .2rem;
+    border: .5px solid #eaeaea;
+    padding: .5rem;
+
+  }
+  .attentionOa{
+    width: 8rem;
+    height: 8rem;
+    margin: .3rem auto 0;
+  }
+  .attention-font{
+    font-size: px2rem(36);
+    color: #636363;
+    margin: 0 auto;
+  }
+  .attention-out{
+    font-size: px2rem(32);
+    color: #9f9f9f;
+    margin: 0 auto;
+  }
+  .attention-bottom{
+    width: 16.5rem;
+    height: 22rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    text-align: center;
+    border-radius: 2%;
+    background-color: #fff;
+  }
+}

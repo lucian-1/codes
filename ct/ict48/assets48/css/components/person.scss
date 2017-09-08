@@ -1,0 +1,130 @@
+.User{
+  $weChat-green: #04be02;
+
+  height: 100%;
+  width: 100%;
+  background: #eee;
+
+  .personal-panel{
+    display: block;
+    //height: 35%;
+    width: 100%;
+    background: #fff;
+    text-align: -webkit-center;
+
+    .portrait{
+      margin-top: px2rem(60);
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+
+    .nickName{
+      padding-top: px2rem(12);
+      font-size: px2rem(34);
+      color: #000;
+    }
+
+    .info-title{
+      padding-top: px2rem(24);
+      font-size: px2rem(30);
+      span{
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        color:#aaa;
+      }
+
+    }
+
+    .info-content{
+      @extend .info-title;
+      padding-top: px2rem(12);
+      padding-bottom: px2rem(20);
+      span{
+        color: #000;
+      }
+    }
+  }
+
+  .course-and-followers-panel{
+    margin-top: 5%;
+    height: 100%;
+    background: #fff;
+
+
+
+    .my-course-button{
+      display: inline-block;
+      width: 50%;
+      height: px2rem(80);
+      padding: px2rem(20);
+      border: none;
+      background: #fff;
+      text-align: center;
+      font-family: inherit;
+      font-size: px2rem(30);
+      border-bottom: 2px solid $weChat-green;
+    }
+    .follower-button{
+      @extend .my-course-button;
+      border-bottom: none;
+    }
+
+  }
+
+  .default-blank-text{
+    padding-top: px2rem(30);
+    text-align: center;
+  }
+
+}
+
+.myCourse{
+  padding: 0 px2rem(20);
+  .my-course-item{
+    display: inline-block;
+    width: 50%;
+    margin-top: 1rem;
+    text-align: -webkit-center;
+  }
+  .course-image{
+    height: 6.5rem;
+    width: 6.5rem;
+    border-radius: px2rem(20);
+  }
+
+  .course-title{
+    font-family: inherit;
+    font-size: px2rem(28);
+  }
+
+  .blank-space{
+    height: 4rem;
+  }
+}
+
+.followers{
+
+  .followers-item{
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .followers-nickName{
+    display: inline-block;
+    //display:-webkit-inline-box;
+    line-height: 2rem;
+    margin-left: px2rem(40);
+    vertical-align: top;
+  }
+  .followers-image{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+  }
+  .blank-space{
+    height: 3rem;
+  }
+}
+

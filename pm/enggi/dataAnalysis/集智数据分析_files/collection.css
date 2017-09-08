@@ -1,0 +1,51 @@
+﻿#commentDiv {
+    background-color: lightblue;
+    color: black;
+    margin: 120px 0 0 255px;
+    height: 780px;
+}
+
+/*.lookComment {
+    display: none;
+}*/
+
+.portlet-comment {
+    width: 100%;
+    height: 55%;
+    background-color: white;
+    color: black;
+    margin-top:10px;
+}
+
+.portlet-comment-detail {
+    height: 80%;
+}
+
+.portlet-comment-div {
+    height: 33%;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-bottom-color: black;
+}
+
+.portlet-comment-div-detail {
+    margin-top: 5px;
+}
+
+.portlet-comment-button {
+}
+#portlet-comment-add {
+    color:#000;
+    height:35px;
+}
+.portlet-comment-add-txt {
+    width:500px;
+    height:28px;
+    position:relative;
+    top:4px;
+    border:1px solid #DDDDDD;
+}
+.chartCommentDiv {
+    display:none;
+    width:100%;
+}

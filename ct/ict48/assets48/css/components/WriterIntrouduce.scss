@@ -1,0 +1,84 @@
+.WriterIntroduce{
+  .banner{
+    background-color: #4BB5FF;
+    width:100%;
+    min-height: 200px;
+    padding:20px 0;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    color: #fff;
+
+    .btn_saoma{
+      position: absolute;
+      right: 16px;
+      top: 16px;
+      display: block;
+      width: px2rem(200);
+      height: 30px;
+      border-radius: px2rem(32);
+      color: #fff;
+      border: 2px solid #fff;
+      font-size: px2rem(28);
+      line-height: 26px;
+    }
+
+    .avatar{
+      width: px2rem(120);
+      height:px2rem(120);
+      margin:0 auto;
+      border-radius: 50%;
+      background-color: #fff;
+    }
+
+    .GH_name{
+      font-size: px2rem(32);
+      line-height: px2rem(60);
+    }
+
+    .wx_code{
+      font-size: px2rem(26);
+      line-height: px2rem(46);
+      margin-bottom: 5px;
+    }
+
+    .intro{
+      font-size: px2rem(32);
+      line-height: px2rem(40);
+      max-width: 320px;
+      margin: 10px auto 0;
+      text-align: left;
+    }
+
+    .qr_code{
+      width:50%;
+    }
+
+  }
+
+  .item{
+    width:80%;
+    height: 64px;
+    padding-left: 8px;
+    margin:px2rem(48) auto 0;
+    border-left: 8px solid #4EDD98;
+    position: relative;
+
+    .name{
+      font-size: 17px;
+      color: #787878;
+      line-height: 20px;
+    }
+
+    .time{
+      font-size: px2rem(24);
+      position: absolute;
+      bottom: 0;
+      left:px2rem(16);
+      color:#ccc;
+    }
+
+  }
+
+}

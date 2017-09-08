@@ -1,0 +1,40 @@
+.pm-item{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  width: 75%;
+  margin: 0 auto;
+  height: px2rem(80);
+  line-height: px2rem(80);
+
+  .minus{
+    width: 20%;
+    border: 1px solid;
+    text-align: -webkit-center;
+    background-color: #56CEB4;
+    color: #fff;
+    font-weight: bold;
+    font-size: px2rem(64);
+    line-height: px2rem(64);
+    border-radius: px2rem(10);
+  }
+
+  .plus{
+    @extend .minus;
+    background-color: #ED6E86;;
+  }
+
+  .num{
+    width: 40%;
+    margin: 0 px2rem(30);
+    border: 1px solid #ccc;
+    border-radius: px2rem(10);
+    text-align: -webkit-center;
+  }
+
+  .button-disabled{
+    background-color: #8c8c8c !important;
+  }
+}

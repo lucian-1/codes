@@ -1,0 +1,98 @@
+.personalCenter{
+  background-color: #F0F0F0;
+  min-height:654px;
+  width:100%;
+  padding:5% 3%;
+  margin:0;
+
+  .title{
+    width: 40%;
+    height: 36px;
+    border-radius: 18px;
+    line-height: 32px;
+    border: 2px solid #ddd;
+    font-size: 17px;
+    background-color: #16D67A;
+    color: #fff;
+    text-align: center;
+  }
+
+  .avatar{
+    text-align: center;
+
+    .photo{
+      width:80px;
+      height:80px;
+      background-color: #fff;
+      margin:20px auto 12px;
+      border-radius: 50%;
+    }
+    .writer_name{
+      font-size: 14px;
+      color: #000;
+      text-align: center;
+      height:26px;
+      line-height: 26px;
+      min-width:120px;
+    }
+
+    .WriterIntroduce{
+      font-size: 14px;
+      margin: 10px auto 20px;
+      padding: 0 8px;
+      color: #787878;
+    }
+
+    .goVotepage{
+      font-size: px2rem(36);
+      color: #4BB5FF;
+      display:block;
+      margin: 0 auto 30px;
+      max-width:300px;
+      line-height:24px;
+      min-height:24px;
+    }
+
+  }
+
+  .personal_vote{
+    width:5rem;
+    height:64px;
+    margin: 10px auto;
+
+    .vote_number{
+      color: #878787;
+      text-align: center;
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 64px;
+    }
+
+    .Piao{
+      font-size: 20px;
+      font-weight:500;
+    }
+
+    img{
+      width:32%;
+      height:65px;
+    }
+
+  }
+
+  .article_list{
+    text-align: center;
+    margin:30px 0;
+
+    p{
+      font-size: 16px;
+      color: #000;
+      line-height: 24px;
+      min-height: 28px;
+      margin-bottom: 5px;
+      text-align: center;
+      padding:2px 0;
+    }
+
+  }
+}

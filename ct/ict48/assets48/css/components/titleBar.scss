@@ -1,0 +1,21 @@
+.title-bar{
+  width: 100%;
+  padding: 0 px2rem(30);
+  height: px2rem(80);
+  line-height: px2rem(80);
+  background-color: #FF712A;
+
+  .back{
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    margin: 0.5rem 0;
+    color: #fff;
+  }
+  .title{
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    color: #fff;
+  }
+}

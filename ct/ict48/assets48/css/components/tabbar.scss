@@ -1,0 +1,97 @@
+
+.tabbar {
+  position: fixed;
+  //z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2rem;
+  line-height: 2rem;
+
+  background: #fff;
+  border-top: 1px #ccc solid;
+  box-shadow: 0 -3px 5px #ddd;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  text-align: center;
+
+  .icon {
+    width: 50%;
+  }
+
+  .tabbar-item{
+    display: inline-block;
+    width: 33.33%;
+  }
+
+  .item-icon{
+    display: inline-block;
+    width: 100%;
+    height: 26px;
+    margin-top:14px;
+    background-image: url("../image/tabbar/vote.png");
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .item-ac{
+    display: inline-block;
+    width: 100%;
+    height: 26px;
+    margin-top:14px;
+    background-image: url("../image/tabbar/ac_vote.png");
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .List-icon{
+    display: inline-block;
+    width: 100%;
+    height: 26px;
+    margin-top:14px;
+    background-image: url("../image/tabbar/topList.png");
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .List-ac{
+    display: inline-block;
+    width: 100%;
+    height: 26px;
+    margin-top:14px;
+    background-image: url("../image/tabbar/ac_topList.png");
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .personal-icon{
+    display: inline-block;
+    width: 100%;
+    height: 26px;
+    margin-top:14px;
+    background-image: url("../image/tabbar/personal.png");
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .personal-ac{
+    display: inline-block;
+    width: 100%;
+    height: 26px;
+    margin-top:14px;
+    background-image: url("../image/tabbar/ac_personal.png");
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+
+
+

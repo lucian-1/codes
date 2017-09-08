@@ -1,0 +1,24 @@
+.GH-guider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 400%;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+  padding-top: 30%;
+  z-index: 1;
+
+  .qrcode-desc{
+    margin: 10px 0;
+    text-align: center;
+    font-size: px2rem(30);
+  }
+
+  .qrcode-img{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+}

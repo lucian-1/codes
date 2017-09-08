@@ -1,0 +1,145 @@
+.vote-page{
+  padding-bottom: 3rem;
+  background-color: #F0F0F0;
+
+  //截止投票时间
+  .vote-time{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background-color: #717171;
+  }
+
+  //剩余投票数
+  .vote-ticket{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    background-color: #F0F0F0;
+    color: #595959;
+  }
+
+  //icon
+  .clock-image{
+    width: 1rem;
+    margin: 0 .5rem;
+    vertical-align: middle;
+  }
+
+  //投票项目
+  .vote-item{
+    position: relative;
+    width: 100%;
+    margin: 0 auto 1rem;
+    padding: .5rem;
+    background-color: #fff;
+
+    .vote-item-left{
+      display: inline-block;
+      width: 30%;
+      padding: .5rem;
+    }
+
+    .vote-item-right{
+      //position: absolute;
+      display: inline-block;
+      width: 70%;
+      min-height: 5rem;
+      vertical-align: super;
+    }
+
+    //My Idol
+    .idol-image {
+      position: absolute;
+      width: 30%;
+      top: -.75rem;
+      left: 0;
+    }
+
+    //公众号头像
+    .vote-image{
+      display: block;
+      height: 3rem;
+      width: 3rem;
+      margin-left: 0.25rem;
+      border-radius: 50%;
+    }
+
+
+    //投票
+    .vote-button{
+      width: 3.5rem;
+      height: 1.5rem;
+      line-height: 1.5rem;
+      margin-top: 0.5rem;
+      text-align: center;
+      background-color: #18D778;
+      border-radius: 15px;
+      color: #fff;
+    }
+
+    //投票排名
+    .vote-rank {
+      position: absolute;
+      top: 3rem;
+      left: 3rem;
+      height: 1rem;
+      width: 1rem;
+      line-height: 1rem;
+      background-color: #18D778;
+      border-radius: 50%;
+      text-align: center;
+      color: #fff;
+    }
+
+    //公众号名称
+    .vote-name{
+      width: 100%;
+      margin-bottom: 5px;
+      color: #000;
+    }
+
+    //公众号名称
+    .vote-oaname{
+      display: inline-block;
+      font-size: px2rem(34);
+      font-weight: bolder;
+    }
+
+    //差额
+    .vote-difference{
+      color: #898989;
+      font-size: 14px;
+      font-weight: normal;
+      padding: 3px 0;
+    }
+
+    //公众号文章标题
+    .vote-article{
+      width: 100%;
+      margin-bottom: 5px;
+      font-size: px2rem(32);
+    }
+
+    //公众号文章详情
+    .vote-detail{
+      width: 90%;
+      font-size: 0.75rem;
+      white-space: normal;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+    }
+  }
+
+
+  .vote-success{
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
+}

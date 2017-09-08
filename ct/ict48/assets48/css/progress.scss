@@ -1,0 +1,34 @@
+
+.progress{
+  display: block;
+  margin: 10% auto;
+
+}
+//.inner_bar:after{
+//  content:'';
+//  position: absolute;
+//  left: 12rem;
+//  height: 13px;
+//  width: 1px;
+//  background: #DCDCDC ;
+//
+//}
+.inner_bar{
+  width: 34%;
+  height: 13px;
+  background-color: #4cd65c;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.4);
+}
+.out_bar{
+  width: 90%;
+  height: 13px;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.4);
+}
+.now_num{
+  font-size: .8rem;
+  color: #656565;
+  float: right;
+  transform: translateY(-2.5rem);
+}

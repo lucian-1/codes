@@ -1,0 +1,22 @@
+.done-toast{
+  .normal{
+    width: 60%;
+    padding: px2rem(20);
+    margin: 0 auto;
+  }
+
+  .customized{
+    position: fixed;
+    z-index: 50000;
+    top: 100px;
+    left: 40%;
+    width: 50%;
+    min-height: 0;
+    background: rgba(40, 40, 40, 0.75);
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px;
+    margin-top: 25%;
+  }
+}

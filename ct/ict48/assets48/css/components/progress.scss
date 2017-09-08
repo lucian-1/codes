@@ -1,0 +1,38 @@
+.container{
+  width:100%;
+}
+
+.progress{
+  margin: 1rem auto 1rem;
+  width: 96%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.inner_bar{
+  //position:absolute;
+  width: 34%;
+  height: 13px;
+  background-color: #4cd65c;
+  border-radius: 8px;
+  //box-shadow: inset 2px 2px 4px rgba(0,0,0,.4);
+}
+.out_bar{
+  //position:relative;
+  width: 70%;
+  height: 13px;
+  border-radius: 8px;
+  background-color:#fff;
+  //box-shadow: inset 2px 2px 4px rgba(0,0,0,.4);
+}
+.now_num {
+  display:block;
+  margin-left: px2rem(20);
+  font-size: .8rem;
+  color: #717171;
+
+  .progress_num{
+    color: #4cd65c;
+  }
+}

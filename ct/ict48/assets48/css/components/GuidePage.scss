@@ -1,0 +1,48 @@
+.guide-page{
+  text-align: center;
+  padding:10% 6%;
+
+  img{
+    width: 60%;
+  }
+
+  .wordOne{
+    color: #27CF78;
+    text-align: left;
+
+    .Hi{
+      font-size: 53px;
+    }
+
+    .YouCome{
+      font-size: 24px;
+    }
+
+  }
+
+  .wordTwo{
+    font-size: 20px;
+    text-align: left;
+    color: #3C3C3C;
+
+    .writerName{
+      color: #27CF78;
+    }
+
+    .WanWu{
+      color: #3E3E3E;
+    }
+  }
+
+  .btn{
+    width: 60%;
+    height: 42px;
+    margin: 0 auto;
+    font-size: 24px;
+    background: #27cf78;
+    border-radius: 4px;
+    line-height: 42px;
+    color: #fff;
+    margin-top: 20px;
+  }
+}
